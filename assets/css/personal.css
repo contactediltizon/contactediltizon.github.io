@@ -220,3 +220,110 @@
     margin-top: 40px;
   }
 }
+/* =========================
+   RESUME SECTION
+========================= */
+.resume-section {
+  padding: 80px 6%;
+}
+
+.resume-section h2 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.resume-section .intro-text {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 40px;
+  color: #cbd5e1;
+}
+
+/* DOWNLOAD + PREVIEW WRAPPER */
+.resume-download-area {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+/* BUTTON */
+.resume-download-area .btn {
+  width: fit-content;
+  text-align: center;
+}
+
+/* OR TEXT */
+.or-text {
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+/* PREVIEW BOX */
+.resume-preview {
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.resume-preview p {
+  margin-bottom: 16px;
+  color: #e5e7eb;
+}
+
+/* LIST */
+.resume-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resume-highlights li {
+  margin-bottom: 14px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.resume-highlights strong {
+  color: #22c55e;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 60px 5%;
+  }
+
+  .resume-preview {
+    padding: 20px;
+  }
+
+  .resume-highlights li {
+    font-size: 0.95rem;
+  }
+
+  .resume-download-area .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro-text {
+    font-size: 0.95rem;
+  }
+
+  .resume-preview {
+    padding: 18px;
+  }
+}
